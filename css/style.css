@@ -21,7 +21,7 @@ body{
     float: left;
     font-family: "Hiragino Kaku Gothic Std";
     font-size: 22px;
-    padding-top: 1px;
+    padding: 1px 0 2px ;
 }
 .topNavBar .logo .rs{
     margin-right: 4px;
@@ -33,7 +33,7 @@ body{
 
 .topNavBar>nav{
     float:right;
-    padding: 4px 0;
+    /* padding: 5px 0 3px; */
 }
 .topNavBar>nav>ul{
     list-style: none;
@@ -47,6 +47,7 @@ body{
     color: rgb(202,203,205);
     font-size: 12px;
     font-weight: bold;
+    padding: 5px 0;
     border-top:3px solid transparent;
     border-bottom: 3px solid transparent;
     display: block;
